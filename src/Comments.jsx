@@ -14,10 +14,10 @@ export default function Comments() {
 
   return (
     <div>
-      <h2>User : {users.length}</h2>
-         {
+      {/* <h2>User : {users.length}</h2> */}
+         {/* {
             users.map((comment ,i)=> <Comment comment={comment}key={i}></Comment>)
-         }
+         } */}
     </div>
   )
 }
